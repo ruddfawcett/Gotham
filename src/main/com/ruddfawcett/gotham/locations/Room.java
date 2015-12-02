@@ -16,6 +16,11 @@ public class Room extends Location {
   }
 
   public Map<Direction, Room> getExits() {
-	return exits;
+	return this.exits;
   }
+  
+  public void setExits(Map<Direction, Room> exits) {
+	  this.exits = exits;
+  }
+  
 }
